@@ -18,6 +18,6 @@ Using github, clone this repository. Go to Settings on your Google Chrome browse
 
 While you are on your web article, simply click on the extension and enjoy the summarized version of your article!
 
-##Links
+###Links
 
 [Aylien Intelligence](http://aylien.com/)
