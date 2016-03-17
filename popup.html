@@ -6,17 +6,19 @@
  -->
 <html>
   <head>
-    <title>Getting Started Extension's Popup</title>
+    <title>ShortArt - Shorten your Article!</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <style>
       body {
         font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
         font-size: 100%;
-        min-width: 600px;
+        min-width: 550px;
+        max-height: 550px;
       }
       #status {
         /* avoid an excessively wide status text */
         display: inline;
+        line-height: 150%;
       }
     </style>
 
@@ -29,7 +31,8 @@
     <script src="popup.js"></script>
   </head>
   <body>
-    <h1>Short Art - Shorten your Articles!</h1>
+    <h1>Short Art - Your 5 sentence summary:</h1>
+    <h3> Powered by Aylien API</h3>
     <div id="status"></div>
     <img id="image-result" hidden>
   </body>

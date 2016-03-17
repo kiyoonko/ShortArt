@@ -111,7 +111,12 @@ function getsummary(Arturl){
     },
     success: function (data) {
       var json_response = data;
-      renderStatus('Summary: ' +"\n" + json_response.sentences[0]+ "\n" + json_response.sentences[1] + "\n" + json_response.sentences[2] + "\n" + json_response.sentences[3] + "\n" + json_response.sentences[4]);
+      if(json_response.sentences[0] != undefined){
+        renderStatus('Summary: ' +"\n\n" + json_response.sentences[0] + json_response.sentences[1] + json_response.sentences[2] + json_response.sentences[3] + json_response.sentences[4]);
+      }
+      else{
+        renderStatus('Summary not available!');
+      }
     }
   });
 }

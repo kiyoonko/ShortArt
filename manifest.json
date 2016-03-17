@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "ShortArt - Shorten your Articles",
-  "description": "This extension takes the article's data then shortens it.",
+  "description": "This extension takes the article's content then shortens it into 5 sentences.",
   "version": "1.0",
 
    "browser_action": {
