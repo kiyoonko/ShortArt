@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "ShortArt - Shorten your Articles",
+  "description": "This extension takes the article's data then shortens it.",
+  "version": "1.0",
+
+   "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Shorten This?"
+  },
+
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/",
+    "https://api.aylien.com/"
+  ],
+  "content_security_policy": "script-src 'self' https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js; object-src 'self'"
+}
