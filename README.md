@@ -12,11 +12,7 @@ Short Art summarizes the online article you are reading into 5 sentences.
 
 ### Installation Guide
 
-#####Unpacked:
-Using github, clone this repository. Go to Settings on your Google Chrome browser and choose Extensions. At the top right, click on Developer mode to enable Developer mode. Click on Load unpacked extension and choose the directory that contains ShortArt Chrome Extension files.
-
-#####Packed:
-Install the .crx file and drag it into the extensions page.
+Install the .crx file. Go to Settings, choose the extensions tab, and drag the .crx file into the extensions page.
 
 ### How to use ShortArt
 
