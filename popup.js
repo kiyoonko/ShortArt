@@ -107,7 +107,7 @@ function getsummary(Arturl){
     },
     error: function (data) {
       var json_response = data;
-      renderStatus('Something went wrong! Error Code: '+json_response);
+      renderStatus('Something went wrong! Method Error.');
     },
     success: function (data) {
       var json_response = data;
